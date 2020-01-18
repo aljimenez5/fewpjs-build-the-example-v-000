@@ -14,10 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function serverCallAfterClick(event) {
-<<<<<<< HEAD
-  console.log(event)
-=======
->>>>>>> 9cc9ad01ce3ad12eb94321bd0287cade6fd83950
   mimicServerCall().then(data => {
     if (event.target.className === "like-glyph") {
       event.target.textContent = FULL_HEART;
