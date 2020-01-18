@@ -9,11 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let likeBtns = document.getElementsByClassName('like-glyph');
   for (var i = 0; i < likeBtns.length; i++)
   {
-<<<<<<< HEAD
     likeBtns[i].addEventListener('click', event => serverCallAfterClick(event))
-=======
-    likeBtns[i].addEventListener('click', serverCallAfterClick(event))
->>>>>>> 9cc9ad01ce3ad12eb94321bd0287cade6fd83950
   }
 });
 
